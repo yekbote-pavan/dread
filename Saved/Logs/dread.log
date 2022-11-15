@@ -1986,3 +1986,129 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.11.15-15.50.20:590][491]AssetCheck: New page: Asset Save: multiple assets
 [2022.11.15-15.50.20:590][491]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
 [2022.11.15-15.50.20:590][491]LogContentValidation: Display: Validating World /Game/Maps/Dread.Dread
+[2022.11.15-15.51.53:949][531]BlueprintLog: New page: Compile Room_Large
+[2022.11.15-15.51.54:263][531]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.11.15-15.51.58:498][912]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.15-15.51.58:509][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-15.51.58:509][912]PIE: New page: PIE session: Dread (Nov 15, 2022, 3:51:58 AM)
+[2022.11.15-15.51.58:509][912]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.15-15.51.58:535][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026537s)
+[2022.11.15-15.51.58:537][912]LogAIModule: Creating AISystem for world Dread
+[2022.11.15-15.51.58:537][912]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2022.11.15-15.51.58:537][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.027975s)
+[2022.11.15-15.51.58:584][912]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2022.11.15-15.51.58:587][912]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-15.51.58:587][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-15.51.58:587][912]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-15.51.58:587][912]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-15.51.58:587][912]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-15.51.58:587][912]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.15-15.51.58:596][912]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.15-15.51.58:596][912]LogAudioMixer: Display: 1: FrontRight
+[2022.11.15-15.51.58:618][912]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.15-15.51.58:619][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-15.51.58:619][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-15.51.58:619][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-15.51.58:619][912]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.15-15.51.58:619][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.15-15.51.58:619][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.15-15.51.58:620][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.15-15.51.58:620][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.15-15.51.58:620][912]LogInit: FAudioDevice initialized.
+[2022.11.15-15.51.58:620][912]LogAudio: Display: Audio Device (ID: 13) registered with world 'Dread'.
+[2022.11.15-15.51.58:628][912]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.15-15.51.58:641][912]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.15-09.51.58
+[2022.11.15-15.51.58:641][912]LogWorld: Bringing up level for play took: 0.012542
+[2022.11.15-15.51.58:641][912]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.11.15-15.51.58:647][912]PIE: Server logged in
+[2022.11.15-15.51.58:648][912]PIE: Play in editor total start time 0.145 seconds.
+[2022.11.15-15.52.13:303][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.52.13:303][664]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.15-15.52.13:303][664]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-15.52.13:308][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.52.13:318][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-15.52.13:330][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.52.13:373][664]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-15.52.13:373][664]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.15-15.52.13:374][664]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.15-15.52.13:377][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.52.13:383][664]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.11.15-15.52.13:425][665]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.11.15-15.53.51:442][680]LogEditorTransaction: Undo Modify Component(s)
+[2022.11.15-15.53.51:970][688]LogEditorTransaction: Undo Paste Component(s)
+[2022.11.15-15.55.28:369][444]BlueprintLog: New page: Compile Room_Large
+[2022.11.15-15.55.29:261][444]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2022.11.15-15.55.37:434][286]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway22)
+[2022.11.15-15.55.44:496][ 67]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.11.15-15.55.47:231][356]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.15-15.55.48:439][495]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.15-15.55.48:450][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-15.55.48:450][495]PIE: New page: PIE session: Dread (Nov 15, 2022, 3:55:48 AM)
+[2022.11.15-15.55.48:450][495]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.15-15.55.48:477][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027391s)
+[2022.11.15-15.55.48:478][495]LogAIModule: Creating AISystem for world Dread
+[2022.11.15-15.55.48:479][495]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2022.11.15-15.55.48:479][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.028794s)
+[2022.11.15-15.55.48:525][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2022.11.15-15.55.48:532][495]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.11.15-15.55.48:532][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-15.55.48:532][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-15.55.48:532][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-15.55.48:532][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-15.55.48:532][495]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-15.55.48:532][495]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.15-15.55.48:532][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-15.55.48:532][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-15.55.48:533][495]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-15.55.48:533][495]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-15.55.48:533][495]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-15.55.48:533][495]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.15-15.55.48:542][495]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.15-15.55.48:542][495]LogAudioMixer: Display: 1: FrontRight
+[2022.11.15-15.55.48:564][495]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.15-15.55.48:564][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-15.55.48:564][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-15.55.48:564][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-15.55.48:564][495]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.15-15.55.48:564][495]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.15-15.55.48:564][495]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.15-15.55.48:566][495]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.15-15.55.48:566][495]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.15-15.55.48:566][495]LogInit: FAudioDevice initialized.
+[2022.11.15-15.55.48:566][495]LogAudio: Display: Audio Device (ID: 14) registered with world 'Dread'.
+[2022.11.15-15.55.48:578][495]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.15-15.55.48:591][495]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.15-09.55.48
+[2022.11.15-15.55.48:591][495]LogWorld: Bringing up level for play took: 0.012396
+[2022.11.15-15.55.48:591][495]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.11.15-15.55.48:597][495]PIE: Server logged in
+[2022.11.15-15.55.48:598][495]PIE: Play in editor total start time 0.154 seconds.
+[2022.11.15-15.55.53:596][ 92]LogCharacter: FirstPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2022.11.15-15.55.54:642][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.55.54:642][213]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.15-15.55.54:643][213]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-15.55.54:647][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.55.54:659][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-15.55.54:675][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.55.54:718][213]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-15.55.54:719][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.15-15.55.54:720][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.15-15.55.54:723][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.55.54:729][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.11.15-15.55.54:767][214]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.11.15-15.55.55:533][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.11.15-15.55.55:601][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dread" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.15-15.55.55:641][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.11.15-15.55.55:852][295]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/DreadA01D33854A04C9B154DB54A7041878CF.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap'
+[2022.11.15-15.55.55:864][295]LogFileHelpers: Saving map 'Dread' took 0.264
+[2022.11.15-15.55.55:883][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.15-15.55.55:906][295]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_Large47E895584A8E970E0F9C6B942BAD9032.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.15-15.55.55:967][295]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.15-15.55.55:967][295]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.15-15.55.55:967][295]LogContentValidation: Display: Validating World /Game/Maps/Dread.Dread
