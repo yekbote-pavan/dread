@@ -3163,3 +3163,539 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.11.16-19.53.56:566][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.11.16-19.53.56:574][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
 [2022.11.16-19.53.56:611][418]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2022.11.16-19.55.11:640][282]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.11.16-19.55.11:664][282]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.16-19.55.11:664][282]LogEditorClassViewer: Warning: Class /Game/M5VFXVOL2/BluePrints/building_DM_Blueprint.building_DM_Blueprint_C has parent /Script/Engine.DestructibleActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.16-19.56.32:547][226]BlueprintLog: New page: Compile Room_Large
+[2022.11.16-19.56.32:855][226]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2022.11.16-19.56.33:002][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.16-19.56.33:026][226]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_LargeBEDAFE1643C33D7285A4C482701EB0B6.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.16-19.56.33:086][226]AssetCheck: New page: Asset Save: Room_Large
+[2022.11.16-19.56.33:086][226]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.16-19.56.37:800][590]BlueprintLog: New page: Compile Room_Large
+[2022.11.16-19.56.37:907][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2022.11.16-19.56.38:057][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.16-19.56.38:080][590]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_Large4255B04444229C2A04680D916E55CE47.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.16-19.56.38:139][590]AssetCheck: New page: Asset Save: Room_Large
+[2022.11.16-19.56.38:139][590]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.16-19.56.41:374][861]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.16-19.56.41:384][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-19.56.41:385][861]PIE: New page: PIE session: Dread (Nov 16, 2022, 7:56:41 AM)
+[2022.11.16-19.56.41:415][861]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-19.56.41:447][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031744s)
+[2022.11.16-19.56.41:448][861]LogAIModule: Creating AISystem for world Dread
+[2022.11.16-19.56.41:448][861]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2022.11.16-19.56.41:449][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.033200s)
+[2022.11.16-19.56.41:499][861]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2022.11.16-19.56.41:502][861]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2022.11.16-19.56.41:502][861]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.16-19.56.41:502][861]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.16-19.56.41:502][861]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.16-19.56.41:502][861]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.16-19.56.41:502][861]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.16-19.56.41:502][861]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.16-19.56.41:502][861]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.16-19.56.41:502][861]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.16-19.56.41:503][861]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.16-19.56.41:503][861]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.16-19.56.41:503][861]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.16-19.56.41:503][861]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.16-19.56.41:510][861]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.16-19.56.41:510][861]LogAudioMixer: Display: 1: FrontRight
+[2022.11.16-19.56.41:532][861]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.16-19.56.41:532][861]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.16-19.56.41:532][861]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.16-19.56.41:532][861]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.16-19.56.41:533][861]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.16-19.56.41:533][861]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.16-19.56.41:533][861]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.16-19.56.41:534][861]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.16-19.56.41:534][861]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.16-19.56.41:534][861]LogInit: FAudioDevice initialized.
+[2022.11.16-19.56.41:534][861]LogAudio: Display: Audio Device (ID: 34) registered with world 'Dread'.
+[2022.11.16-19.56.41:547][861]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.16-19.56.41:563][861]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.16-13.56.41
+[2022.11.16-19.56.41:563][861]LogWorld: Bringing up level for play took: 0.015204
+[2022.11.16-19.56.41:563][861]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2022.11.16-19.56.41:569][861]PIE: Server logged in
+[2022.11.16-19.56.41:570][861]PIE: Play in editor total start time 0.191 seconds.
+[2022.11.16-19.56.48:619][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-19.56.48:619][699]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-19.56.48:620][699]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-19.56.48:626][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-19.56.48:638][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.16-19.56.48:654][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-19.56.48:700][699]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.16-19.56.48:700][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-19.56.48:701][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-19.56.48:705][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-19.56.48:711][699]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.11.16-19.56.48:749][700]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.11.16-19.56.49:650][804]LogEditorViewport: Clicking on Actor (LMB): Room_Large_C (Room_Large2)
+[2022.11.16-19.57.02:499][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dread" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-19.57.02:560][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.11.16-19.57.02:810][171]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Dread5BC52FC24907C8F2923404AD9E8A090F.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap'
+[2022.11.16-19.57.02:820][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dread_BuiltData" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread_BuiltData.uasset" SILENT=true
+[2022.11.16-19.57.02:955][171]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Dread_BuiltDataCA94D4B1438A070A182789A37524CB7A.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread_BuiltData.uasset'
+[2022.11.16-19.57.03:010][171]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.16-19.57.03:010][171]LogContentValidation: Display: Validating World /Game/Maps/Dread.Dread
+[2022.11.16-19.57.03:010][171]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Dread_BuiltData.Dread_BuiltData
+[2022.11.16-19.57.03:517][230]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.16-19.57.03:529][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-19.57.03:529][230]PIE: New page: PIE session: Dread (Nov 16, 2022, 7:57:03 AM)
+[2022.11.16-19.57.03:555][230]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-19.57.03:587][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031533s)
+[2022.11.16-19.57.03:588][230]LogAIModule: Creating AISystem for world Dread
+[2022.11.16-19.57.03:588][230]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2022.11.16-19.57.03:588][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.032908s)
+[2022.11.16-19.57.03:635][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.11.16-19.57.03:636][230]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.16-19.57.03:636][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.16-19.57.03:636][230]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.16-19.57.03:636][230]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.16-19.57.03:636][230]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.16-19.57.03:636][230]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.16-19.57.03:644][230]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.16-19.57.03:644][230]LogAudioMixer: Display: 1: FrontRight
+[2022.11.16-19.57.03:665][230]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.16-19.57.03:666][230]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.16-19.57.03:666][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.16-19.57.03:666][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.16-19.57.03:666][230]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.16-19.57.03:666][230]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.16-19.57.03:666][230]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.16-19.57.03:667][230]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.16-19.57.03:667][230]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.16-19.57.03:667][230]LogInit: FAudioDevice initialized.
+[2022.11.16-19.57.03:667][230]LogAudio: Display: Audio Device (ID: 35) registered with world 'Dread'.
+[2022.11.16-19.57.03:676][230]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.16-19.57.03:692][230]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.16-13.57.03
+[2022.11.16-19.57.03:692][230]LogWorld: Bringing up level for play took: 0.015123
+[2022.11.16-19.57.03:692][230]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2022.11.16-19.57.03:698][230]PIE: Server logged in
+[2022.11.16-19.57.03:699][230]PIE: Play in editor total start time 0.176 seconds.
+[2022.11.16-19.57.33:309][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-19.57.33:309][766]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-19.57.33:309][766]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-19.57.33:316][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-19.57.33:333][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.16-19.57.33:345][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-19.57.33:390][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-19.57.33:391][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-19.57.33:392][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-19.57.33:401][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.11.16-19.57.33:444][767]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.11.16-19.58.50:708][490]BlueprintLog: New page: Compile Room_Large
+[2022.11.16-19.58.51:188][490]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2022.11.16-19.58.51:331][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.16-19.58.51:354][490]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_LargeD98C770545163690CDD1C98383E88195.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.16-19.58.51:413][490]AssetCheck: New page: Asset Save: Room_Large
+[2022.11.16-19.58.51:413][490]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.16-19.58.53:288][622]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.16-19.58.53:299][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-19.58.53:299][622]PIE: New page: PIE session: Dread (Nov 16, 2022, 7:58:53 AM)
+[2022.11.16-19.58.53:299][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-19.58.53:332][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032118s)
+[2022.11.16-19.58.53:332][622]LogAIModule: Creating AISystem for world Dread
+[2022.11.16-19.58.53:332][622]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2022.11.16-19.58.53:332][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.033480s)
+[2022.11.16-19.58.53:385][622]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2022.11.16-19.58.53:387][622]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2022.11.16-19.58.53:387][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.16-19.58.53:387][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.16-19.58.53:387][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.16-19.58.53:387][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.16-19.58.53:387][622]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.16-19.58.53:387][622]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.16-19.58.53:387][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.16-19.58.53:387][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.16-19.58.53:388][622]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.16-19.58.53:388][622]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.16-19.58.53:388][622]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.16-19.58.53:388][622]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.16-19.58.53:396][622]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.16-19.58.53:396][622]LogAudioMixer: Display: 1: FrontRight
+[2022.11.16-19.58.53:418][622]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.16-19.58.53:419][622]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.16-19.58.53:419][622]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.16-19.58.53:419][622]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.16-19.58.53:419][622]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.16-19.58.53:419][622]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.16-19.58.53:419][622]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.16-19.58.53:420][622]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.16-19.58.53:420][622]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.16-19.58.53:420][622]LogInit: FAudioDevice initialized.
+[2022.11.16-19.58.53:420][622]LogAudio: Display: Audio Device (ID: 36) registered with world 'Dread'.
+[2022.11.16-19.58.53:431][622]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.16-19.58.53:446][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.16-13.58.53
+[2022.11.16-19.58.53:447][622]LogWorld: Bringing up level for play took: 0.015420
+[2022.11.16-19.58.53:447][622]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2022.11.16-19.58.53:453][622]PIE: Server logged in
+[2022.11.16-19.58.53:454][622]PIE: Play in editor total start time 0.161 seconds.
+[2022.11.16-19.59.36:669][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-19.59.36:669][796]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-19.59.36:669][796]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-19.59.36:676][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-19.59.36:691][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.16-19.59.36:703][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-19.59.36:747][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-19.59.36:750][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-19.59.36:751][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-19.59.36:760][796]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.11.16-19.59.36:805][797]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2022.11.16-19.59.37:714][901]LogEditorViewport: Clicking on Actor (LMB): Room_Large_C (Room_Large2)
+[2022.11.16-20.00.29:347][483]BlueprintLog: New page: Compile Room_Large
+[2022.11.16-20.00.29:500][483]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2022.11.16-20.00.29:645][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.16-20.00.29:668][483]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_LargeE72668CE4616D9422735EAA1E8562F89.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.16-20.00.29:727][483]AssetCheck: New page: Asset Save: Room_Large
+[2022.11.16-20.00.29:727][483]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.16-20.00.58:137][552]Cmd: TRANSACTION UNDO
+[2022.11.16-20.00.58:137][552]LogEditorTransaction: Undo Modify Component(s)
+[2022.11.16-20.01.03:210][963]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway16)
+[2022.11.16-20.01.19:939][821]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway15)
+[2022.11.16-20.01.34:031][372]Cmd: TRANSACTION UNDO
+[2022.11.16-20.01.34:031][372]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.01.34:489][380]Cmd: TRANSACTION UNDO
+[2022.11.16-20.01.34:489][380]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.01.35:374][470]Cmd: TRANSACTION UNDO
+[2022.11.16-20.01.35:374][470]LogEditorTransaction: Undo Clicking on Actors
+[2022.11.16-20.01.38:334][800]Cmd: TRANSACTION REDO
+[2022.11.16-20.01.38:334][800]LogEditorTransaction: Redo Clicking on Actors
+[2022.11.16-20.01.43:575][390]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway15)
+[2022.11.16-20.01.51:279][224]Cmd: TRANSACTION UNDO
+[2022.11.16-20.01.51:279][224]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.02.06:909][936]Cmd: SELECT NONE
+[2022.11.16-20.04.05:820][335]LogEditorTransaction: Undo Modify Component(s)
+[2022.11.16-20.04.21:719][511]BlueprintLog: New page: Compile Room_Large
+[2022.11.16-20.04.22:230][511]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2022.11.16-20.04.22:370][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.16-20.04.22:394][511]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_LargeBEB41DA543D33F6BCC000787AB83C8EE.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.16-20.04.22:452][511]AssetCheck: New page: Asset Save: Room_Large
+[2022.11.16-20.04.22:452][511]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.16-20.05.14:849][575]BlueprintLog: New page: Compile Room_Large
+[2022.11.16-20.05.15:242][575]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2022.11.16-20.05.15:397][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.16-20.05.15:421][575]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_LargeECCE8A61411C0F730672FA9C6E85F945.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.16-20.05.15:478][575]AssetCheck: New page: Asset Save: Room_Large
+[2022.11.16-20.05.15:478][575]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.16-20.05.18:361][875]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.16-20.05.18:371][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-20.05.18:371][875]PIE: New page: PIE session: Dread (Nov 16, 2022, 8:05:18 AM)
+[2022.11.16-20.05.18:402][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.05.18:435][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032191s)
+[2022.11.16-20.05.18:436][875]LogAIModule: Creating AISystem for world Dread
+[2022.11.16-20.05.18:436][875]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2022.11.16-20.05.18:436][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.033597s)
+[2022.11.16-20.05.18:487][875]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.11.16-20.05.18:490][875]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.16-20.05.18:490][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.16-20.05.18:490][875]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.16-20.05.18:490][875]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.16-20.05.18:490][875]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.16-20.05.18:490][875]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.16-20.05.18:499][875]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.16-20.05.18:499][875]LogAudioMixer: Display: 1: FrontRight
+[2022.11.16-20.05.18:521][875]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.16-20.05.18:522][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.16-20.05.18:522][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.16-20.05.18:522][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.16-20.05.18:522][875]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.16-20.05.18:522][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.16-20.05.18:522][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.16-20.05.18:523][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.16-20.05.18:523][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.16-20.05.18:523][875]LogInit: FAudioDevice initialized.
+[2022.11.16-20.05.18:523][875]LogAudio: Display: Audio Device (ID: 37) registered with world 'Dread'.
+[2022.11.16-20.05.18:531][875]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.16-20.05.18:547][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.16-14.05.18
+[2022.11.16-20.05.18:547][875]LogWorld: Bringing up level for play took: 0.015830
+[2022.11.16-20.05.18:548][875]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2022.11.16-20.05.18:554][875]PIE: Server logged in
+[2022.11.16-20.05.18:555][875]PIE: Play in editor total start time 0.189 seconds.
+[2022.11.16-20.05.36:086][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.05.36:086][964]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.05.36:087][964]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-20.05.36:094][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.05.36:112][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.16-20.05.36:118][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.05.36:164][964]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.16-20.05.36:165][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.05.36:166][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.05.36:169][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.05.36:175][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.11.16-20.05.36:203][965]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2022.11.16-20.05.55:045][216]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway14)
+[2022.11.16-20.06.06:224][454]LogEditorViewport: Clicking on Actor (LMB): Room_Large_C (Room_Large2)
+[2022.11.16-20.06.14:153][326]Cmd: TRANSACTION UNDO
+[2022.11.16-20.06.14:153][326]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.06.49:705][284]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway21)
+[2022.11.16-20.07.35:327][400]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway19)
+[2022.11.16-20.07.51:662][118]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway21)
+[2022.11.16-20.08.13:878][611]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway19)
+[2022.11.16-20.08.47:909][483]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway19)
+[2022.11.16-20.08.48:212][515]Cmd: TRANSACTION UNDO
+[2022.11.16-20.08.48:212][515]LogEditorTransaction: Undo Set Scale
+[2022.11.16-20.09.02:444][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x453)
+[2022.11.16-20.09.59:570][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x454)
+[2022.11.16-20.10.19:757][950]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner8)
+[2022.11.16-20.10.20:121][986]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner8)
+[2022.11.16-20.10.56:236][116]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner8)
+[2022.11.16-20.11.20:716][960]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.16-20.11.20:725][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-20.11.20:725][960]PIE: New page: PIE session: Dread (Nov 16, 2022, 8:11:20 AM)
+[2022.11.16-20.11.20:725][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.11.20:759][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034715s)
+[2022.11.16-20.11.20:760][960]LogAIModule: Creating AISystem for world Dread
+[2022.11.16-20.11.20:761][960]LogPlayLevel: PIE: World Init took: (0.001432s)
+[2022.11.16-20.11.20:761][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.036314s)
+[2022.11.16-20.11.20:839][960]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.11.16-20.11.20:846][960]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2022.11.16-20.11.20:846][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.16-20.11.20:846][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.16-20.11.20:846][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.16-20.11.20:846][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.16-20.11.20:846][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.16-20.11.20:846][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.16-20.11.20:846][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.16-20.11.20:846][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.16-20.11.20:847][960]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.16-20.11.20:847][960]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.16-20.11.20:847][960]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.16-20.11.20:847][960]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.16-20.11.20:856][960]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.16-20.11.20:856][960]LogAudioMixer: Display: 1: FrontRight
+[2022.11.16-20.11.20:879][960]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.16-20.11.20:880][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.16-20.11.20:880][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.16-20.11.20:880][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.16-20.11.20:880][960]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.16-20.11.20:880][960]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.16-20.11.20:880][960]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.16-20.11.20:881][960]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.16-20.11.20:881][960]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.16-20.11.20:881][960]LogInit: FAudioDevice initialized.
+[2022.11.16-20.11.20:882][960]LogAudio: Display: Audio Device (ID: 38) registered with world 'Dread'.
+[2022.11.16-20.11.20:893][960]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.16-20.11.20:909][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.16-14.11.20
+[2022.11.16-20.11.20:909][960]LogWorld: Bringing up level for play took: 0.016006
+[2022.11.16-20.11.20:910][960]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2022.11.16-20.11.20:916][960]PIE: Server logged in
+[2022.11.16-20.11.20:917][960]PIE: Play in editor total start time 0.196 seconds.
+[2022.11.16-20.11.23:855][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.11.23:855][305]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.11.23:856][305]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-20.11.23:863][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.11.23:878][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.16-20.11.23:888][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.11.23:934][305]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.16-20.11.23:935][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.11.23:936][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.11.23:939][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.11.23:945][305]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.11.16-20.11.23:985][306]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.11.16-20.11.34:916][550]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway19)
+[2022.11.16-20.11.41:194][249]Cmd: TRANSACTION UNDO
+[2022.11.16-20.11.41:194][249]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.12.00:680][402]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway23)
+[2022.11.16-20.12.04:728][866]Cmd: TRANSACTION UNDO
+[2022.11.16-20.12.04:728][866]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.12.13:080][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x455)
+[2022.11.16-20.12.26:334][218]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x455)
+[2022.11.16-20.12.37:612][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x456)
+[2022.11.16-20.12.59:834][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x419)
+[2022.11.16-20.13.09:554][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway14)
+[2022.11.16-20.13.12:277][362]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway22)
+[2022.11.16-20.13.35:930][ 61]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway22)
+[2022.11.16-20.13.44:742][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x452)
+[2022.11.16-20.13.57:742][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x419)
+[2022.11.16-20.13.58:260][531]LogEditorViewport: Clicking on Actor (LMB): Room_Large_C (Room_Large2)
+[2022.11.16-20.14.03:603][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x452)
+[2022.11.16-20.14.14:869][395]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner7)
+[2022.11.16-20.14.56:561][ 93]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway14)
+[2022.11.16-20.15.02:082][666]Cmd: TRANSACTION UNDO
+[2022.11.16-20.15.02:082][666]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.15.28:339][358]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner7)
+[2022.11.16-20.16.08:437][889]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway22)
+[2022.11.16-20.17.09:023][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x427)
+[2022.11.16-20.17.16:104][582]Cmd: TRANSACTION UNDO
+[2022.11.16-20.17.16:104][582]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.17.17:048][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x452)
+[2022.11.16-20.17.36:665][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x427)
+[2022.11.16-20.17.52:086][337]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway21)
+[2022.11.16-20.18.23:169][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x419)
+[2022.11.16-20.18.56:215][587]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway14)
+[2022.11.16-20.19.08:787][980]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway14)
+[2022.11.16-20.20.24:848][627]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner7)
+[2022.11.16-20.21.03:597][103]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway22)
+[2022.11.16-20.21.34:379][642]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner3)
+[2022.11.16-20.22.15:824][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x420)
+[2022.11.16-20.22.38:863][  4]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway15)
+[2022.11.16-20.23.16:926][236]LogEditorViewport: Clicking on Actor (LMB): Room_Large_C (Room_Large2)
+[2022.11.16-20.23.23:872][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway18)
+[2022.11.16-20.23.43:414][332]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway15)
+[2022.11.16-20.24.08:614][313]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway15)
+[2022.11.16-20.24.24:453][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x423)
+[2022.11.16-20.24.34:981][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x424)
+[2022.11.16-20.24.40:102][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2022.11.16-20.24.48:002][902]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway18)
+[2022.11.16-20.26.15:150][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x420)
+[2022.11.16-20.26.17:940][480]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway20)
+[2022.11.16-20.27.24:201][353]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway16)
+[2022.11.16-20.27.32:723][363]Cmd: TRANSACTION UNDO
+[2022.11.16-20.27.32:724][363]LogEditorTransaction: Undo Move Actors
+[2022.11.16-20.27.33:932][445]Cmd: TRANSACTION UNDO
+[2022.11.16-20.27.33:932][445]LogEditorTransaction: Undo Clicking on Actors
+[2022.11.16-20.27.41:480][329]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway20)
+[2022.11.16-20.27.55:510][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x420)
+[2022.11.16-20.28.09:513][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x418)
+[2022.11.16-20.28.21:812][971]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.16-20.28.21:823][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-20.28.21:823][971]PIE: New page: PIE session: Dread (Nov 16, 2022, 8:28:21 AM)
+[2022.11.16-20.28.21:823][971]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.28.21:859][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036305s)
+[2022.11.16-20.28.21:861][971]LogAIModule: Creating AISystem for world Dread
+[2022.11.16-20.28.21:861][971]LogPlayLevel: PIE: World Init took: (0.001612s)
+[2022.11.16-20.28.21:861][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.038084s)
+[2022.11.16-20.28.21:977][971]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2022.11.16-20.28.21:983][971]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2022.11.16-20.28.21:983][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.16-20.28.21:983][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.16-20.28.21:983][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.16-20.28.21:983][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.16-20.28.21:983][971]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.16-20.28.21:983][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.16-20.28.21:983][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.16-20.28.21:983][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.16-20.28.21:984][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.16-20.28.21:984][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.16-20.28.21:984][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.16-20.28.21:984][971]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.16-20.28.21:995][971]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.16-20.28.21:995][971]LogAudioMixer: Display: 1: FrontRight
+[2022.11.16-20.28.22:033][971]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.16-20.28.22:033][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.16-20.28.22:033][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.16-20.28.22:033][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.16-20.28.22:035][971]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.16-20.28.22:035][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.16-20.28.22:035][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.16-20.28.22:037][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.16-20.28.22:037][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.16-20.28.22:037][971]LogInit: FAudioDevice initialized.
+[2022.11.16-20.28.22:037][971]LogAudio: Display: Audio Device (ID: 39) registered with world 'Dread'.
+[2022.11.16-20.28.22:047][971]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.16-20.28.22:072][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.16-14.28.22
+[2022.11.16-20.28.22:072][971]LogWorld: Bringing up level for play took: 0.024078
+[2022.11.16-20.28.22:072][971]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2022.11.16-20.28.22:080][971]PIE: Server logged in
+[2022.11.16-20.28.22:081][971]PIE: Play in editor total start time 0.263 seconds.
+[2022.11.16-20.28.42:739][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.28.42:739][442]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.28.42:740][442]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-20.28.42:747][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.28.42:762][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.16-20.28.42:780][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.28.42:825][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.16-20.28.42:825][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.28.42:826][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.28.42:830][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.28.42:836][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.11.16-20.28.42:883][443]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.11.16-20.28.43:537][517]LogEditorViewport: Clicking on Actor (LMB): BP_Hallway_C (BP_Hallway15)
+[2022.11.16-20.28.44:391][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x425)
+[2022.11.16-20.29.08:131][184]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.16-20.29.08:140][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.16-20.29.08:140][184]PIE: New page: PIE session: Dread (Nov 16, 2022, 8:29:08 AM)
+[2022.11.16-20.29.08:175][184]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.29.08:207][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032107s)
+[2022.11.16-20.29.08:208][184]LogAIModule: Creating AISystem for world Dread
+[2022.11.16-20.29.08:208][184]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2022.11.16-20.29.08:208][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dread.Dread to /Game/Maps/UEDPIE_0_Dread.Dread (0.033573s)
+[2022.11.16-20.29.08:254][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.11.16-20.29.08:260][184]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.16-20.29.08:260][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.16-20.29.08:260][184]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.16-20.29.08:260][184]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.16-20.29.08:260][184]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.16-20.29.08:260][184]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.16-20.29.08:268][184]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.16-20.29.08:268][184]LogAudioMixer: Display: 1: FrontRight
+[2022.11.16-20.29.08:289][184]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.16-20.29.08:289][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.16-20.29.08:289][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.16-20.29.08:289][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.16-20.29.08:290][184]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.16-20.29.08:290][184]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.16-20.29.08:290][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.16-20.29.08:291][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.16-20.29.08:291][184]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.16-20.29.08:291][184]LogInit: FAudioDevice initialized.
+[2022.11.16-20.29.08:291][184]LogAudio: Display: Audio Device (ID: 40) registered with world 'Dread'.
+[2022.11.16-20.29.08:301][184]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.16-20.29.08:316][184]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dread.Dread up for play (max tick rate 0) at 2022.11.16-14.29.08
+[2022.11.16-20.29.08:317][184]LogWorld: Bringing up level for play took: 0.014981
+[2022.11.16-20.29.08:317][184]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2022.11.16-20.29.08:323][184]PIE: Server logged in
+[2022.11.16-20.29.08:324][184]PIE: Play in editor total start time 0.188 seconds.
+[2022.11.16-20.29.42:809][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.29.42:809][307]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dread
+[2022.11.16-20.29.42:810][307]LogWorld: UWorld::CleanupWorld for Dread, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-20.29.42:817][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.29.42:829][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.16-20.29.42:849][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-20.29.42:894][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.16-20.29.42:895][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.29.42:896][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.16-20.29.42:905][307]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2022.11.16-20.29.42:953][308]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2022.11.16-20.29.46:327][690]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner7)
+[2022.11.16-20.29.55:694][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x427)
+[2022.11.16-20.30.24:859][588]LogEditorViewport: Clicking on Actor (LMB): BP_Corner_C (BP_Corner8)
+[2022.11.16-20.30.37:014][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dread" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-20.30.37:061][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.11.16-20.30.37:317][ 11]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/DreadAF31EE404E18A62B8463B183180E2188.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap'
+[2022.11.16-20.30.37:333][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dread_BuiltData" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread_BuiltData.uasset" SILENT=true
+[2022.11.16-20.30.37:470][ 11]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Dread_BuiltData8E16EA1D40C131900B0EC0A47B22371D.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread_BuiltData.uasset'
+[2022.11.16-20.30.37:531][ 11]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.16-20.30.37:531][ 11]LogContentValidation: Display: Validating World /Game/Maps/Dread.Dread
+[2022.11.16-20.30.37:531][ 11]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Dread_BuiltData.Dread_BuiltData
+[2022.11.16-20.31.21:321][740]BlueprintLog: New page: Compile Room_Large
+[2022.11.16-20.31.21:506][740]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.11.16-20.31.21:663][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArchitectureBP/Room_Large" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset" SILENT=true
+[2022.11.16-20.31.21:686][740]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Room_Large26CE96D84D63E6A6D291858186F995E2.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/ArchitectureBP/Room_Large.uasset'
+[2022.11.16-20.31.21:744][740]AssetCheck: New page: Asset Save: Room_Large
+[2022.11.16-20.31.21:744][740]LogContentValidation: Display: Validating Blueprint /Game/ArchitectureBP/Room_Large.Room_Large
+[2022.11.16-20.31.38:477][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.11.16-20.31.38:549][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dread" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-20.31.38:592][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.11.16-20.31.38:841][603]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Dread7F62BFC048A896708EDDCA933252C1B3.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Dread.umap'
+[2022.11.16-20.31.38:848][603]LogFileHelpers: Saving map 'Dread' took 0.300
+[2022.11.16-20.31.38:849][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Testing" FILE="../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Testing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.16-20.31.38:901][603]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.11.16-20.31.38:920][603]LogSavePackage: Moving '../../../../../../Users/jackvn2/Documents/GitHub/dread/Saved/Testing9E32854446EBC33DEFA65FA704B0BBCE.tmp' to '../../../../../../Users/jackvn2/Documents/GitHub/dread/Content/Maps/Testing.umap'
+[2022.11.16-20.31.38:926][603]LogFileHelpers: Saving map 'Testing' took 0.077
+[2022.11.16-20.31.38:987][603]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.16-20.31.38:987][603]LogContentValidation: Display: Validating World /Game/Maps/Dread.Dread
+[2022.11.16-20.31.38:987][603]LogContentValidation: Display: Validating World /Game/Maps/Testing.Testing
